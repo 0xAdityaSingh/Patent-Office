@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68906776321",
+    "firebase_url": "https://patentoffice-8a87d.firebaseio.com",
+    "project_id": "patentoffice-8a87d",
+    "storage_bucket": "patentoffice-8a87d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68906776321:android:f60f205f5d8e075b8e0d00",
+        "android_client_info": {
+          "package_name": "com.example.patent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68906776321-u1tdc1mhard3kkhuf00ffg21lfssgnbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patent",
+            "certificate_hash": "c9df3d92c1cf1f7f1a127578e0767b52c2c7f1d9"
+          }
+        },
+        {
+          "client_id": "68906776321-euvdcvhan613sn7md7mtdktlvbk9uob5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmMtlJJHr4kkyQhoDyExkz0M2bKMU6zns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68906776321-euvdcvhan613sn7md7mtdktlvbk9uob5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
