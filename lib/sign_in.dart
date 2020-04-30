@@ -1,5 +1,4 @@
 import 'package:firebase_auth/firebase_auth.dart';
-// import 'package:firebase_showcase/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:patent/emain.dart';
 
@@ -71,8 +70,6 @@ class _LoginPageState extends State<LoginPage> {
     if(_formKey.currentState.validate()){
       _formKey.currentState.save();
       try{
-        
-        // FirebaseUser user = await FirebaseAuth.instance.signInWithEmailAndPassword(email: _email, password: _password);
         FirebaseUser user = (await FirebaseAuth.instance.signInWithEmailAndPassword(email: _email, password: _password)).user;
     
         Navigator.push(context, MaterialPageRoute(builder: (context) => PMyApp(user: user)));
